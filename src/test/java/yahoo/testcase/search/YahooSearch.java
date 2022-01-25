@@ -19,14 +19,11 @@ public class YahooSearch extends TestCaseBase {
 		yahooHomePage.open();
 		yahooHomePage.waitPageLoad();
 		Assert.assertTrue(yahooHomePage.titleIs(YahooHomePage.TITLE));
-		
 		yahooHomePage.search("perficient");
 		YahooSearchResultsPage yahooSearchResultsPage = yahooHomePage.gotoYahooSearchResultsPage();
 		yahooSearchResultsPage.waitPageLoad();
 		Assert.assertTrue(yahooSearchResultsPage.titleIs("perficient - Yahoo Search Results"));
-		
 		PerficientHomePage perficientHomePage = yahooSearchResultsPage.clickFirstLink();
-		
 		perficientHomePage.waitPageLoad();
 		Assert.assertTrue(perficientHomePage.titleIs(PerficientHomePage.TITLE));
 	}
