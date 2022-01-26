@@ -16,8 +16,8 @@ public class xboxLeaderboardPage extends Page {
   
 	public static String TITLE="Xbox Leaderboards - Xbox Gamertag";
 	
-	@FindBy(xpath = "/html/body/div[1]/div/div[1]/div/div[3]/a")
-	public WebElement FirstPlace;
+//	@FindBy(xpath = "/html/body/div[1]/div/div[1]/div/a']")
+	public WebElement FirstPlace = 
 
 	@FindBy(xpath = "/html/body/div[1]/div/div[2]/div/div[3]/a")
 	public WebElement SecondPlace;

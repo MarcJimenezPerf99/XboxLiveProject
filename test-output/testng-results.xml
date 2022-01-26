@@ -2,7 +2,7 @@
 <testng-results ignored="0" total="1" passed="0" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-01-24T20:45:01 CST" name="Default suite" finished-at="2022-01-24T20:45:07 CST" duration-ms="5807">
+  <suite started-at="2022-01-26T12:00:35 CST" name="Default suite" finished-at="2022-01-26T12:00:38 CST" duration-ms="2646">
     <groups>
       <group name="firefox">
         <method signature="verifyLeaderboard.verifyLeaderboardTest()[pri:0, instance:xbox.testcase.verifyleaderboard.verifyLeaderboard@23e84203]" name="verifyLeaderboardTest" class="xbox.testcase.verifyleaderboard.verifyLeaderboard"/>
@@ -14,9 +14,9 @@
         <method signature="verifyLeaderboard.verifyLeaderboardTest()[pri:0, instance:xbox.testcase.verifyleaderboard.verifyLeaderboard@23e84203]" name="verifyLeaderboardTest" class="xbox.testcase.verifyleaderboard.verifyLeaderboard"/>
       </group> <!-- IEWin32 -->
     </groups>
-    <test started-at="2022-01-24T20:45:01 CST" name="Default test" finished-at="2022-01-24T20:45:07 CST" duration-ms="5807">
+    <test started-at="2022-01-26T12:00:35 CST" name="Default test" finished-at="2022-01-26T12:00:38 CST" duration-ms="2646">
       <class name="xbox.testcase.verifyleaderboard.verifyLeaderboard">
-        <test-method is-config="true" signature="setUpBrowser(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:xbox.testcase.verifyleaderboard.verifyLeaderboard@23e84203]" started-at="2022-01-24T20:45:01 CST" name="setUpBrowser" finished-at="2022-01-24T20:45:02 CST" duration-ms="1208" status="PASS">
+        <test-method is-config="true" signature="setUpBrowser(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:xbox.testcase.verifyleaderboard.verifyLeaderboard@23e84203]" started-at="2022-01-26T12:00:35 CST" name="setUpBrowser" finished-at="2022-01-26T12:00:37 CST" duration-ms="1656" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -42,54 +42,21 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpBrowser -->
-        <test-method signature="verifyLeaderboardTest()[pri:0, instance:xbox.testcase.verifyleaderboard.verifyLeaderboard@23e84203]" started-at="2022-01-24T20:45:02 CST" name="verifyLeaderboardTest" finished-at="2022-01-24T20:45:07 CST" duration-ms="4345" status="FAIL">
-          <exception class="org.openqa.selenium.WebDriverException">
+        <test-method signature="verifyLeaderboardTest()[pri:0, instance:xbox.testcase.verifyleaderboard.verifyLeaderboard@23e84203]" started-at="2022-01-26T12:00:37 CST" name="verifyLeaderboardTest" finished-at="2022-01-26T12:00:38 CST" duration-ms="675" status="FAIL">
+          <exception class="java.lang.Error">
             <message>
-              <![CDATA[element click intercepted: Element <a class="display-4 stretched-link" href="/search/...">fumingpuma5803</a> is not clickable at point (659, 494). Other element would receive the click: <a class="display-4 stretched-link" href="/search/fumingpuma5803"></a>
-  (Session info: chrome=97.0.4692.71)
-  (Driver info: chromedriver=97.0.4692.71 (adefa7837d02a07a604c1e6eff0b3a09422ab88d-refs/branch-heads/4692@{#1247}),platform=Windows NT 10.0.19043 x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 1.07 seconds
-Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
-System info: host: 'PRFT-15050', ip: '10.128.206.237', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.1'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities [{mobileEmulationEnabled=false, timeouts={implicit=0, pageLoad=300000, script=30000}, hasTouchScreen=false, platform=XP, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:61139}, webauthn:extension:credBlob=true, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, setWindowRect=true, webauthn:extension:largeBlob=true, unexpectedAlertBehaviour=ignore, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=97.0.4692.71 (adefa7837d02a07a604c1e6eff0b3a09422ab88d-refs/branch-heads/4692@{#1247}), userDataDir=C:\Users\MARC~1.JIM\AppData\Local\Temp\scoped_dir23896_1253275908}, takesHeapSnapshot=true, pageLoadStrategy=normal, strictFileInteractability=false, databaseEnabled=false, handlesAlerts=true, version=97.0.4692.71, browserConnectionEnabled=false, proxy={}, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true, webauthn:virtualAuthenticators=true}]
-Session ID: 45ab8563f0311785ea866defadd7a75e]]>
+              <![CDATA[Unresolved compilation problems: 
+Syntax error on token "=", ; expected
+Syntax error, type annotations are available only when source level is at least 1.8
+]]>
             </message>
             <full-stacktrace>
-              <![CDATA[org.openqa.selenium.WebDriverException: element click intercepted: Element <a class="display-4 stretched-link" href="/search/...">fumingpuma5803</a> is not clickable at point (659, 494). Other element would receive the click: <a class="display-4 stretched-link" href="/search/fumingpuma5803"></a>
-  (Session info: chrome=97.0.4692.71)
-  (Driver info: chromedriver=97.0.4692.71 (adefa7837d02a07a604c1e6eff0b3a09422ab88d-refs/branch-heads/4692@{#1247}),platform=Windows NT 10.0.19043 x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 1.07 seconds
-Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
-System info: host: 'PRFT-15050', ip: '10.128.206.237', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.1'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities [{mobileEmulationEnabled=false, timeouts={implicit=0, pageLoad=300000, script=30000}, hasTouchScreen=false, platform=XP, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:61139}, webauthn:extension:credBlob=true, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, setWindowRect=true, webauthn:extension:largeBlob=true, unexpectedAlertBehaviour=ignore, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=97.0.4692.71 (adefa7837d02a07a604c1e6eff0b3a09422ab88d-refs/branch-heads/4692@{#1247}), userDataDir=C:\Users\MARC~1.JIM\AppData\Local\Temp\scoped_dir23896_1253275908}, takesHeapSnapshot=true, pageLoadStrategy=normal, strictFileInteractability=false, databaseEnabled=false, handlesAlerts=true, version=97.0.4692.71, browserConnectionEnabled=false, proxy={}, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true, webauthn:virtualAuthenticators=true}]
-Session ID: 45ab8563f0311785ea866defadd7a75e
-at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
-at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
-at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
-at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
-at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:327)
-at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:85)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement$1.invoke(EventFiringWebDriver.java:335)
-at jdk.proxy2/jdk.proxy2.$Proxy15.click(Unknown Source)
-at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.click(EventFiringWebDriver.java:348)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
-at jdk.proxy2/jdk.proxy2.$Proxy14.click(Unknown Source)
-at xbox.basepages.xboxLeaderboardPage.goToFirstPlace(xboxLeaderboardPage.java:48)
-at xbox.testcase.verifyleaderboard.verifyLeaderboard.verifyLeaderboardTest(verifyLeaderboard.java:25)
+              <![CDATA[java.lang.Error: Unresolved compilation problems: 
+Syntax error on token "=", ; expected
+Syntax error, type annotations are available only when source level is at least 1.8
+
+at xbox.basepages.xboxLeaderboardPage.<init>(xboxLeaderboardPage.java:20)
+at xbox.testcase.verifyleaderboard.verifyLeaderboard.verifyLeaderboardTest(verifyLeaderboard.java:20)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -120,27 +87,27 @@ at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 ]]>
             </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.WebDriverException -->
+          </exception> <!-- java.lang.Error -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyLeaderboardTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:xbox.testcase.verifyleaderboard.verifyLeaderboard@23e84203]" started-at="2022-01-24T20:45:07 CST" name="tearDown" finished-at="2022-01-24T20:45:07 CST" duration-ms="227" status="FAIL">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:xbox.testcase.verifyleaderboard.verifyLeaderboard@23e84203]" started-at="2022-01-26T12:00:38 CST" name="tearDown" finished-at="2022-01-26T12:00:38 CST" duration-ms="266" status="FAIL">
           <exception class="org.openqa.selenium.remote.UnreachableBrowserException">
             <message>
               <![CDATA[Error communicating with the remote browser. It may have died.
 Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
-System info: host: 'PRFT-15050', ip: '10.128.206.237', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.1'
+System info: host: 'PRFT-15050', ip: '10.128.206.23', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.1'
 Driver info: driver.version: EventFiringWebDriver
-Capabilities [{mobileEmulationEnabled=false, timeouts={implicit=0, pageLoad=300000, script=30000}, hasTouchScreen=false, platform=XP, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:61139}, webauthn:extension:credBlob=true, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, setWindowRect=true, webauthn:extension:largeBlob=true, unexpectedAlertBehaviour=ignore, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=97.0.4692.71 (adefa7837d02a07a604c1e6eff0b3a09422ab88d-refs/branch-heads/4692@{#1247}), userDataDir=C:\Users\MARC~1.JIM\AppData\Local\Temp\scoped_dir23896_1253275908}, takesHeapSnapshot=true, pageLoadStrategy=normal, strictFileInteractability=false, databaseEnabled=false, handlesAlerts=true, version=97.0.4692.71, browserConnectionEnabled=false, proxy={}, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true, webauthn:virtualAuthenticators=true}]
-Session ID: 45ab8563f0311785ea866defadd7a75e]]>
+Capabilities [{mobileEmulationEnabled=false, timeouts={implicit=0, pageLoad=300000, script=30000}, hasTouchScreen=false, platform=XP, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:60097}, webauthn:extension:credBlob=true, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, setWindowRect=true, webauthn:extension:largeBlob=true, unexpectedAlertBehaviour=ignore, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=97.0.4692.71 (adefa7837d02a07a604c1e6eff0b3a09422ab88d-refs/branch-heads/4692@{#1247}), userDataDir=C:\Users\MARC~1.JIM\AppData\Local\Temp\scoped_dir23296_1704544274}, takesHeapSnapshot=true, pageLoadStrategy=normal, strictFileInteractability=false, databaseEnabled=false, handlesAlerts=true, version=97.0.4692.71, browserConnectionEnabled=false, proxy={}, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true, webauthn:virtualAuthenticators=true}]
+Session ID: 4125608b4c5988e3778fd6129d5f72a2]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.remote.UnreachableBrowserException: Error communicating with the remote browser. It may have died.
 Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
-System info: host: 'PRFT-15050', ip: '10.128.206.237', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.1'
+System info: host: 'PRFT-15050', ip: '10.128.206.23', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.1'
 Driver info: driver.version: EventFiringWebDriver
-Capabilities [{mobileEmulationEnabled=false, timeouts={implicit=0, pageLoad=300000, script=30000}, hasTouchScreen=false, platform=XP, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:61139}, webauthn:extension:credBlob=true, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, setWindowRect=true, webauthn:extension:largeBlob=true, unexpectedAlertBehaviour=ignore, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=97.0.4692.71 (adefa7837d02a07a604c1e6eff0b3a09422ab88d-refs/branch-heads/4692@{#1247}), userDataDir=C:\Users\MARC~1.JIM\AppData\Local\Temp\scoped_dir23896_1253275908}, takesHeapSnapshot=true, pageLoadStrategy=normal, strictFileInteractability=false, databaseEnabled=false, handlesAlerts=true, version=97.0.4692.71, browserConnectionEnabled=false, proxy={}, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true, webauthn:virtualAuthenticators=true}]
-Session ID: 45ab8563f0311785ea866defadd7a75e
+Capabilities [{mobileEmulationEnabled=false, timeouts={implicit=0, pageLoad=300000, script=30000}, hasTouchScreen=false, platform=XP, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:60097}, webauthn:extension:credBlob=true, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, setWindowRect=true, webauthn:extension:largeBlob=true, unexpectedAlertBehaviour=ignore, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=97.0.4692.71 (adefa7837d02a07a604c1e6eff0b3a09422ab88d-refs/branch-heads/4692@{#1247}), userDataDir=C:\Users\MARC~1.JIM\AppData\Local\Temp\scoped_dir23296_1704544274}, takesHeapSnapshot=true, pageLoadStrategy=normal, strictFileInteractability=false, databaseEnabled=false, handlesAlerts=true, version=97.0.4692.71, browserConnectionEnabled=false, proxy={}, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true, webauthn:virtualAuthenticators=true}]
+Session ID: 4125608b4c5988e3778fd6129d5f72a2
 at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:665)
 at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:701)
 at org.openqa.selenium.remote.RemoteWebDriver.quit(RemoteWebDriver.java:526)
