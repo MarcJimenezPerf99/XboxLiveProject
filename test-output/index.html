@@ -51,7 +51,7 @@
               <ul>
                 <li>
                   <a href="#" panel-name="test-xml-Default_suite" class="navigator-link ">
-                    <span>C:\Users\Marc.Jimenez\AppData\Local\Temp\testng-eclipse-1923559669\testng-customsuite.xml</span>
+                    <span>C:\Users\Marc.Jimenez\AppData\Local\Temp\testng-eclipse-951592166\testng-customsuite.xml</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -130,12 +130,15 @@
                   <a name="verifyLeaderboardTest">
                   </a> <!-- verifyLeaderboardTest -->
                   <span class="method-name">verifyLeaderboardTest</span>
-                  <div class="stack-trace">java.lang.Error: Unresolved compilation problems: 
-	Syntax error on token &quot;=&quot;, ; expected
-	Syntax error, type annotations are available only when source level is at least 1.8
-
-	at xbox.basepages.xboxLeaderboardPage.&lt;init&gt;(xboxLeaderboardPage.java:20)
-	at xbox.testcase.verifyleaderboard.verifyLeaderboard.verifyLeaderboardTest(verifyLeaderboard.java:20)
+                  <div class="stack-trace">org.openqa.selenium.TimeoutException: Timed out after 30 seconds waiting for visibility of [[ChromeDriver: chrome on XP (19f9b68ce9e6166fadb78da4fa237fe8)] -&gt; xpath: //div[@class=&apos;row&apos;]/div[1]/div/a]
+Build info: version: &apos;2.53.1&apos;, revision: &apos;a36b8b1cd5757287168e54b817830adce9b0158d&apos;, time: &apos;2016-06-30 19:26:09&apos;
+System info: host: &apos;PRFT-15050&apos;, ip: &apos;10.123.88.133&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.1&apos;
+Driver info: org.openqa.selenium.support.events.EventFiringWebDriver
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:80)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:261)
+	at util.Waiting.until(Waiting.java:44)
+	at xbox.basepages.xboxLeaderboardPage.goToFirstPlace(xboxLeaderboardPage.java:49)
+	at xbox.testcase.verifyleaderboard.verifyLeaderboard.verifyLeaderboardTest(verifyLeaderboard.java:25)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -173,7 +176,7 @@
         </div> <!-- panel Default_suite -->
         <div panel-name="test-xml-Default_suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">C:\Users\Marc.Jimenez\AppData\Local\Temp\testng-eclipse-1923559669\testng-customsuite.xml</span>
+            <span class="header-content">C:\Users\Marc.Jimenez\AppData\Local\Temp\testng-eclipse-951592166\testng-customsuite.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
@@ -250,12 +253,12 @@ data.addRows(1);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'verifyLeaderboardTest')
 data.setCell(0, 2, 'xbox.testcase.verifyleaderboard.verifyLeaderboard')
-data.setCell(0, 3, 675);
+data.setCell(0, 3, 82172);
 window.suiteTableData['Default_suite']= { tableData: data, tableDiv: 'times-div-Default_suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 675 ms</span>
+              <span class="suite-total-time">Total running time: 1 minutes</span>
               <div id="times-div-Default_suite">
               </div> <!-- times-div-Default_suite -->
             </div> <!-- times-div -->
@@ -290,13 +293,13 @@ return data;
                 <img src="failed.png">
                 </img>
                 <span class="method-name">verifyLeaderboardTest</span>
-                <span class="method-start">1658 ms</span>
+                <span class="method-start">1745 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <img src="failed.png">
                 </img>
                 <span class="method-name">tearDown</span>
-                <span class="method-start">2336 ms</span>
+                <span class="method-start">83930 ms</span>
               </div> <!-- configuration-method after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

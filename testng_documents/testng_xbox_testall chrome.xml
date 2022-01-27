@@ -6,6 +6,6 @@
 </listeners>
 <suite-files>
 	<suite-file path="./testng_documents/suite-xbox-verifyLeaderboard chrome.xml" />
-
+	<>
 </suite-files>
 </suite>
